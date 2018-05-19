@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.anujdawar.allinclusive">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_all_inclusive_black_48dp"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="com.example.anujdawar.allinclusive.SplashScreen"/>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="com.example.anujdawar.allinclusive.MainActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Devices_Activity">
+            <intent-filter>
+                <action android:name="com.example.anujdawar.allinclusive.MainActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".saved_commands_activity">
+            <intent-filter>
+                <action android:name="com.example.anujdawar.allinclusive.MainActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".addCommandIntentClass">
+            <intent-filter>
+                <action android:name="com.example.anujdawar.allinclusive.MainActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".RoomSelectActivity">
+            <intent-filter>
+                <action android:name="com.example.anujdawar.allinclusive.MainActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <service android:name=".TheService"/>
+
+    </application>
+
+</manifest>

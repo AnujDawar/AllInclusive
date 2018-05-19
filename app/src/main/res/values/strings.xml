@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">All Inclusive</string>
+
+    <string name="addCommandActivity">Add Commands</string>
+    <string name="savedCommandTitle">Saved Commands</string>
+
+    <string-array name="status_of_devices_spinner">
+
+        <item>NONE</item>
+        <item>ON</item>
+        <item>OFF</item>
+
+    </string-array>
+
+    <string-array name="status_of_devices_spinner2">
+
+        <item>NONE</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+
+    </string-array>
+
+
+</resources>
